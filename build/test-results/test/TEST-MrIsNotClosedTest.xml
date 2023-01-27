@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MrIsNotClosedTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-27T14:32:59" hostname="DESKTOP-NCS7CN6" time="8.558">
+  <properties/>
+  <testcase name="mrIsNotClosedTest()" classname="MrIsNotClosedTest" time="8.558"/>
+  <system-out><![CDATA[[INFO ] : com.codeborne.selenide.impl.WebDriverThreadLocalContainer:148 : No webdriver is bound to current thread: 1 - let's create a new webdriver
+[INFO ] : com.codeborne.selenide.impl.FileHelper:46 : Creating folder: C:\Users\anduser\IdeaProjects\GitLabTest\build\downloads\1674829979469_18360_1
+[INFO ] : io.github.bonigarcia.wdm.WebDriverManager:1238 : Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] : io.github.bonigarcia.wdm.WebDriverManager:1291 : Exporting webdriver.chrome.driver as C:\Users\anduser\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] : com.codeborne.selenide.webdriver.SelenideNettyClientFactory:25 : Changed readTimeout from PT3M to PT1M30S
+[INFO ] : com.codeborne.selenide.webdriver.SelenideNettyClientFactory:25 : Changed readTimeout from PT3M to PT1M30S
+[INFO ] : com.codeborne.selenide.webdriver.SelenideNettyClientFactory:25 : Changed readTimeout from PT3M to PT1M30S
+[INFO ] : com.codeborne.selenide.webdriver.WebDriverFactory:144 : BrowserName=chrome Version=109.0.5414.120 Platform=WINDOWS
+[INFO ] : com.codeborne.selenide.webdriver.WebDriverFactory:75 : Selenide v. 6.11.1
+[INFO ] : com.codeborne.selenide.webdriver.WebDriverFactory:138 : Selenium WebDriver v. 4.7.2 build revision: 4d4020c3b7
+[INFO ] : com.codeborne.selenide.drivercommands.CreateDriverCommand:78 : Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (12d3667d647c37f2db485553ac5e7aa7)
+[INFO ] : com.codeborne.selenide.drivercommands.DisposablesRegistry:30 : Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (12d3667d647c37f2db485553ac5e7aa7),proxy=null,downloadsFolder=C:\Users\anduser\IdeaProjects\GitLabTest\build\downloads\1674829979469_18360_1] in 1 [size=1]
+[INFO ] : com.codeborne.selenide.drivercommands.DisposablesRegistry:32 : Add shutdown hook in 1 [size=1]
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 9289
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв. 27, 2023 5:33:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: 108
+]]></system-err>
+</testsuite>
